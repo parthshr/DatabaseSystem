@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml
+	xmlns="http://earth.google.com/kml/2.0">
+	<Document>
+		<Style id="z1">
+			<IconStyle>
+				<Icon>
+					<href>http://www.google.com/intl/en_us/mapfiles/ms/micons/blue-dot.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="z2">
+			<IconStyle>
+				<Icon>
+					<href>https://www.google.com/intl/en_us/mapfiles/ms/micons/yellow-dot.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="z3">
+			<IconStyle>
+				<Icon>
+					<href>http://www.google.com/intl/en_us/mapfiles/ms/micons/green-dot.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="transBluePoly">
+	      <LineStyle>
+	        <width>1.5</width>
+	      </LineStyle>
+	      <PolyStyle>
+	        <color>7dff0000</color>
+	      </PolyStyle>
+    	</Style>
+    	<Style id="yellowLineGreenPoly">
+	      <LineStyle>
+	        <color>ffff00ff</color>
+	        <width>4</width>
+	      </LineStyle>
+    	</Style>
+    	<Folder>
+    		<name>Apartment</name>
+  			<open>1</open>
+  			<description>
+    			Layer 1: Home
+  			</description>
+			<Placemark>
+				<name>Home</name>
+				<styleUrl>#z3</styleUrl>
+				<Point>
+					<coordinates>-118.2869220517836,34.03245033835621</coordinates>
+				</Point>
+			</Placemark>
+	    </Folder>
+    	<Folder>
+    		<name>Fountains</name>
+  			<open>2</open>
+  			<description>
+    			Layer 2: Fountains
+  			</description>
+		<Placemark>
+			<name>USC Village</name>
+			<styleUrl>#z1</styleUrl>
+			<Point>
+				<coordinates>-118.28519451546177,34.02524841035429</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Generation</name>
+			<styleUrl>#z1</styleUrl>
+			<Point>
+				<coordinates>-118.28323882924452,34.02231337273449</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Carol Franklin</name>
+			<styleUrl>#z1</styleUrl>
+			<Point>
+				<coordinates>-118.28338645977466,34.020456347371265</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Patsy Forrest</name>
+			<styleUrl>#z1</styleUrl>
+			<Point>
+				<coordinates>-118.285111319317,34.02036360524337</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Franklin Family</name>
+			<styleUrl>#z1</styleUrl>
+			<Point>
+				<coordinates>-118.28399890121054,34.019040709405964</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Bi Ran-Chuck Ng</name>
+			<styleUrl>#z1</styleUrl>
+			<Point>
+				<coordinates>-118.29063035394284,34.02030443131197</coordinates>
+			</Point>
+		</Placemark>
+		</Folder>
+    	<Folder>
+    		<name>Library</name>
+  			<open>3</open>
+  			<description>
+    			Layer 3: Library
+  			</description>
+		<Placemark>
+			<name>Leavey</name>
+			<styleUrl>#z2</styleUrl>
+			<Point>
+				<coordinates>-118.28315310867488,34.02147888104079</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Doheny Jr.</name>
+			<styleUrl>#z2</styleUrl>
+			<Point>
+				<coordinates>-118.28411560993817,34.020327807804414</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Asa V call Law</name>
+			<styleUrl>#z2</styleUrl>
+			<Point>
+				<coordinates>-118.28420119922986,34.0188396633581</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hoose Phil</name>
+			<styleUrl>#z2</styleUrl>
+			<Point>
+				<coordinates>-118.28646351336684,34.01861553101082</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Helen Topping</name>
+			<styleUrl>#z2</styleUrl>
+			<Point>
+				<coordinates>-118.28778166429126,34.019477537359826</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Seaver Science</name>
+			<styleUrl>#z2</styleUrl>
+			<Point>
+				<coordinates>-118.28893427653901,34.01990278254969</coordinates>
+			</Point>
+		</Placemark>
+		</Folder>
+    	<Folder>
+    		<name>Convex Hull</name>
+  			<open>4</open>
+  			<description>
+    			Layer 4: Convex Hull
+  			</description>
+		<Placemark>
+			<name>Convex Hull</name>
+			<styleUrl>#transBluePoly</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+					<coordinates>-118.28646351336684,34.01861553101082 -118.29063035394284,34.02030443131197 -118.2869220517836,34.03245033835621 -118.28323882924452,34.02231337273449 -118.28315310867488,34.02147888104079 -118.28338645977466,34.020456347371265 -118.28399890121054,34.019040709405964 -118.28420119922986,34.0188396633581 -118.28646351336684,34.01861553101082</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		</Folder>
+    	<Folder>
+    		<name>Nearest Neighbor</name>
+  			<open>5</open>
+  			<description>
+    			Layer 5: Nearest Neighbor
+  			</description>
+		<Placemark>
+			<name>Nearest Neighbor</name>
+			<styleUrl>#yellowLineGreenPoly</styleUrl>
+			<LineString>
+				<coordinates>-118.2869220517836,34.03245033835621 -118.28519451546177,34.02524841035429</coordinates>
+			</LineString>
+		</Placemark>
+		</Folder>
+	</Document>
+</kml>
